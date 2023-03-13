@@ -8,7 +8,7 @@
 /* GENERICHE */
 
 body {
-    background-color: #222;
+    background-color: #999;
 }
 
 .flex {
@@ -30,13 +30,22 @@ body {
 /* ELEMENTI PAGINA*/
 
 header {
-    background-color: aquamarine;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
 }
 
-header > div {
-    background-color: blanchedalmond;
-    padding: 2em 1em;
+
+header span {
+    padding: 1em 2em;
     font-size: 13px;
-    min-width: 20%;
+}
+
+.largebox {
+    width: 60%;
+    margin: auto;
+    height: 500px;
+    background-color: burlywood;
 }
 
