@@ -73,7 +73,7 @@ header span {
     width: 100vw;
     padding-top: 100px;
     background-color: #b4d0e7;
-    
+
 }
 
 h1 {
@@ -98,4 +98,17 @@ h1 {
 
 .jumboImg {
     width: 100%;
+}
+
+.smallSection {
+    width: 55vw;
+    margin: auto;
+    background-color: firebrick;
+    padding-top: 150px;
+}
+
+.columnBusiness {
+    height: 950px;
+    border: 1px solid black;
+    background-color: yellowgreen;
 }
