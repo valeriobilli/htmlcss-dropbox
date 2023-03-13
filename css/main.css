@@ -9,10 +9,29 @@
 
 body {
     background-color: #999;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
+.widht30 {
+    width: 30%;
+}
+
+.widht70 {
+    width: 70%;
+}
+
+.marginBtm2Em {
+    margin-bottom: 2em;
+}
+
+/* flex */
 
 .flex {
     display: flex;
+}
+
+.dirColumn {
+    flex-direction: column;
 }
 
 .spaceBetween {
@@ -27,7 +46,12 @@ body {
     align-items: center;
 }
 
+/* ///////////////// */
+
 /* ELEMENTI PAGINA*/
+
+
+/* HEADER */
 
 header {
     position: fixed;
@@ -36,16 +60,42 @@ header {
     background-color: white;
 }
 
-
 header span {
-    padding: 1em 2em;
+    padding: 1.5em 1.5em;
     font-size: 13px;
 }
 
-.largebox {
-    width: 60%;
-    margin: auto;
-    height: 500px;
-    background-color: burlywood;
+/* ///////////////// */
+
+/* MAIN */
+
+#jumboSection {
+    width: 100vw;
+    padding-top: 100px;
+    background-color: #b4d0e7;
+    
 }
 
+h1 {
+    font-size: 60px;
+    width: 60vw;
+    margin: auto;
+    padding: 1rem;
+}
+
+.jumboBox {
+    width: 60vw;
+    margin: auto;
+    padding: 2rem 1em 0;
+    height: 400px;
+}
+
+.quadrato {
+    width: 700px;
+    height: 450px;
+    background-color: deeppink;
+}
+
+.jumboImg {
+    width: 100%;
+}
