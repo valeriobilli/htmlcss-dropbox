@@ -12,6 +12,10 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.width1-3 {
+    width: calc(90% / 3);
+}
+
 .widht30 {
     width: 30%;
 }
@@ -52,6 +56,10 @@ body {
 
 .alignCenter {
     align-items: center;
+}
+
+.wrap {
+    flex-wrap: wrap;
 }
 
 
@@ -180,6 +188,10 @@ input {
 
 .textBox {
     width: 40%;
+}
+
+.featureImg {
+    width: 100%;
 }
 
 
