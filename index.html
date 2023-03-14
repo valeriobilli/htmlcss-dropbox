@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
 </head>
 <body>
 
@@ -41,7 +42,7 @@
                 <a href="">Accedi</a>
              </span>
              <span>
-               <button>Inizia</button>
+               <button class="blueButton">Inizia</button>
              </span>
         </div>
         
@@ -51,13 +52,16 @@
     <!-- MAIN -->
     <main>
         <section id="jumboSection">
-            <h1>Tutto ciò che ti serve per il lavoro, in un unico posto</h1>  
-            <div class="jumboBox flex">
-                <div class="width30">
-                    <p class="marginBtm2Em">Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dallo stesso posto. Dropbox Business è più di un nuovo spazio di archiviazione sicuro: è un modo intelligente e integrato per ottimizzare il flusso di lavoro eistente.</p>
-                    <button class="marginBtm2Em">Inizia la tua prova gratuita</button>
-                    <div class="marginBtm2Em">Annulla in qualsiasi momento</div>
-                    <div>fa icon</div>
+            
+            <div class="jumboBox flex wrap">
+                <h1>Tutto ciò che ti serve per il lavoro, in un unico posto</h1>  
+                <div class="width30 posRelative">
+                    <p class="marginBottom2Em">Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dallo stesso posto. Dropbox Business è più di un nuovo spazio di archiviazione sicuro: è un modo intelligente e integrato per ottimizzare il flusso di lavoro eistente.</p>
+                    <button class="blueButton marginBottom2Em">Inizia la tua prova gratuita</button>
+                    <div class="marginBottom5Em">Annulla in qualsiasi momento</div>
+                    <div>
+                        <a id="linkArrow" class="posAbsolute" href=""><i class="fa-solid fa-arrow-down"></i></a>
+                    </div>
                 </div>
 
                 <div class="width70">
