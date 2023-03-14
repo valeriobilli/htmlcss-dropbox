@@ -24,6 +24,14 @@ body {
     margin-bottom: 2em;
 }
 
+.marginBottom1Rem {
+    margin-bottom: 1rem;
+}
+
+.marginLeft1Rem {
+    margin-left: 1rem;
+}
+
 /* flex */
 
 .flex {
@@ -44,6 +52,26 @@ body {
 
 .alignCenter {
     align-items: center;
+}
+
+
+/* position */
+
+.posRelative {
+    position: relative;
+}
+
+.posAbsolute {
+    position: absolute;
+}
+
+.posTopRight {
+    top: 0px;
+    right: 0px;
+}
+
+.floatRight { 
+    float: right;
 }
 
 /* ///////////////// */
@@ -69,6 +97,8 @@ header span {
 
 /* MAIN */
 
+/* jumbosection */
+
 #jumboSection {
     width: 100vw;
     padding-top: 100px;
@@ -91,24 +121,66 @@ h1 {
 }
 
 .quadrato {
-    width: 700px;
-    height: 450px;
-    background-color: deeppink;
+    width: 790px;
+    height: 460px;
 }
 
 .jumboImg {
     width: 100%;
 }
 
+/* business plan section */
+
 .smallSection {
-    width: 55vw;
+    width: 53vw;
     margin: auto;
-    background-color: firebrick;
     padding-top: 150px;
+    background-color: white;
 }
 
 .columnBusiness {
     height: 950px;
     border: 1px solid black;
-    background-color: yellowgreen;
+    background-color: white;
 }
+
+h2 {
+    font-size: 30px;
+    margin-bottom: 1.5em;
+}
+
+input {
+    margin-bottom: 3em;
+}
+
+.colTitle {
+    text-align: center;
+    margin: 0;
+}
+
+.columnBusiness > * {
+    margin: 1.5rem;
+}
+
+.rowBusiness {
+    width: 100%;
+    height: 100px;
+    height: 250px;
+    margin-top: 3rem;
+    border: 1px solid black;
+}
+
+.boxImg {
+    width: 60%;
+}
+
+#partnerImg {
+    width: 100%;
+}
+
+.textBox {
+    width: 40%;
+}
+
+
+
