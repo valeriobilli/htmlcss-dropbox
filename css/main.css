@@ -216,7 +216,6 @@ input {
 .squareBox {
     width: calc(100% / 3);
     height: calc(100vw / 3);
-    border: 1px solid black;
 }
 
 .smallSquare {
@@ -226,6 +225,7 @@ input {
 
 #designitBox {
     background-color: #a2d39b;
+    border: 1em solid #d1e9cd;
 }
 
 #asuBox {
@@ -258,6 +258,13 @@ input {
 
 .logoPartner {
     width: 50%;
+    filter: invert(1);
+}
+
+.scrollBox {
+    background-color: #f5f5f5;
+    overflow-y: scroll;
+    overflow-x: hidden;
 }
 
 
