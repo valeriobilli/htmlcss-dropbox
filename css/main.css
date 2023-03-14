@@ -8,20 +8,31 @@
 /* GENERICHE */
 
 body {
-    background-color: #999;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.width33 {
+    width: calc(100% / 3);
 }
 
 .width1-3 {
     width: calc(90% / 3);
 }
 
-.widht30 {
+.width100vw {
+    width: 100vw;
+}
+
+.width30 {
     width: 30%;
 }
 
-.widht70 {
+.width70 {
     width: 70%;
+}
+
+.width {
+    width: 100%;
 }
 
 .marginBtm2Em {
@@ -45,6 +56,10 @@ body {
 .dirColumn {
     flex-direction: column;
 }
+
+.justifyCenter {
+    justify-content: center;
+} 
 
 .spaceBetween {
     justify-content: space-between;
@@ -128,15 +143,6 @@ h1 {
     height: 400px;
 }
 
-.quadrato {
-    width: 790px;
-    height: 460px;
-}
-
-.jumboImg {
-    width: 100%;
-}
-
 /* business plan section */
 
 .smallSection {
@@ -182,6 +188,10 @@ input {
     width: 60%;
 }
 
+.imgBoxed {
+    width: 100%;
+}
+
 #partnerImg {
     width: 100%;
 }
@@ -193,6 +203,74 @@ input {
 .featureImg {
     width: 100%;
 }
+
+.squareImg {
+    width: 50%;
+}
+
+.squareDiv {
+    width: 50%;
+    height: 50%;
+}
+
+.squareBox {
+    width: calc(100% / 3);
+    height: calc(100vw / 3);
+    border: 1px solid black;
+}
+
+.smallSquare {
+    width: 50%;
+    height: 50%;
+}
+
+#designitBox {
+    background-color: #a2d39b;
+}
+
+#asuBox {
+    background-color: #61082b;
+}
+
+#ufBox {
+    background-color: #0093ce;
+}
+
+#toppsBox {
+    background-color: #ff1c1c;
+}
+
+#worldBicycleBox {
+    background-color: #d5001f;
+}
+
+#hearstBox {
+    background-color: #b4d0e7;
+}
+
+#lonelyPlanetBox {
+    background-color: #0d2481;
+}
+
+#clearChannelBox {
+    background-color: #ffd830;
+}
+
+.logoPartner {
+    width: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
