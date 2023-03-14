@@ -140,7 +140,11 @@ h1 {
     width: 60vw;
     margin: auto;
     padding: 2rem 1em 0;
-    height: 400px;
+    /* height: 400px; */
+}
+
+.jumboImg {
+    width: 110%;
 }
 
 /* business plan section */
@@ -160,7 +164,6 @@ h1 {
 
 h2 {
     font-size: 30px;
-    margin-bottom: 1.5em;
 }
 
 input {
@@ -267,6 +270,14 @@ input {
     overflow-x: hidden;
 }
 
+#freeTrialSection {
+    height: 360px;
+    background-color: #b4d0e7;
+}
+
+#freeTrialBox {
+    width: 53vw;
+}
 
 
 
