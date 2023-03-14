@@ -136,13 +136,13 @@ header span {
 
 h1 {
     font-size: 60px;
-    width: 60vw;
+    width: 1210px;
     margin: auto;
     padding: 1rem;
 }
 
 .jumboBox {
-    width: 60vw;
+    width: 1210px;
     margin: auto;
     padding: 2rem 1em 0;
     /* height: 400px; */
@@ -155,7 +155,7 @@ h1 {
 /* business plan section */
 
 .smallSection {
-    width: 53vw;
+    width: 1025px;
     margin: auto;
     padding-top: 150px;
     background-color: white;
