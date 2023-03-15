@@ -55,10 +55,10 @@
         <section id="jumboSection">
             
             <div class="jumboBox flex wrap">
-                <h1>Tutto ciò che ti serve per il lavoro, in un unico posto</h1>  
+                <h1 class="marginBtm0_75em marginTop2_5em">Tutto ciò che ti serve per il lavoro, in un unico posto</h1>  
                 <div class="width30 posRelative">
-                    <p class="marginBottom2Em">Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dallo stesso posto. Dropbox Business è più di un nuovo spazio di archiviazione sicuro: è un modo intelligente e integrato per ottimizzare il flusso di lavoro eistente.</p>
-                    <button class="blueButton marginBottom2Em">Inizia la tua prova gratuita</button>
+                    <p class="marginBtm2Em">Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dallo stesso posto. Dropbox Business è più di un nuovo spazio di archiviazione sicuro: è un modo intelligente e integrato per ottimizzare il flusso di lavoro eistente.</p>
+                    <button class="blueButton marginBtm2Em">Inizia la tua prova gratuita</button>
                     <div class="marginBottom5Em">Annulla in qualsiasi momento</div>
                     <div>
                         <a id="linkArrow" class="posAbsolute" href="#businessPlanSection"><i class="fa-solid fa-arrow-down"></i></a>
@@ -75,20 +75,20 @@
         <section class="smallSection businessPlanSctn" id="businessPlanSection">
             <!-- piano business (3 colonne uguali e una riga sotto) -->
             
-            <h2 class="marginBottom2Em">Trova il piano business che fa per te</h2>
+            <h2 class="marginBtm2Em fontSize32px">Trova il piano business che fa per te</h2>
             <div>
                 <input type="radio" name="periodo-fatturazione" id="fatturazione" placeholder="">
-                <label for="fatturazioneMensile">Fatturazione mensile</label>
+                <label class="fontSize14px marginRight3em" for="fatturazioneMensile">Fatturazione mensile</label>
                 <input type="radio" name="periodo-fatturazione" id="fatturazioneMensile">
-                <label for="fatturazione">Fatturazione mensile</label>
+                <label class="fontSize14px marginRight3em for="fatturazione">Fatturazione mensile</label>
             </div>  
 
             <div class="flex spaceBetween">
 
                 <div class="width30 columnPlan">
-                    <div class="colTitle"><i class="fa-solid fa-user"></i> Singolo</div>
-                    <div class="planDescription">
-                        <h3>Professional</h3>
+                    <div class="colTitle padding1em"><i class="fa-solid fa-user"></i> Singolo</div>
+                    <div class="planDescription padding1rem">
+                        <h3 class="margin1rem">Professional</h3>
                         <strong>€ 12.00</strong>
                         <div>/mese</div>
                         <br>
@@ -115,7 +115,7 @@
                 </div>
 
                 <div class="width30 columnPlan">
-                    <div class="colTitle"><i class="fa-solid fa-user"></i> Singolo</div>
+                    <div class="colTitle padding1em"><i class="fa-solid fa-users"></i> Team</div>
                     <div class="planDescription">
                         <h3>Advanced</h3>
                         <strong>€ 18.00</strong>
@@ -147,7 +147,7 @@
                 </div>
 
                 <div class="width30 columnPlan">
-                    <div class="colTitle"><i class="fa-solid fa-user"></i> Singolo</div>
+                    <div class="colTitle padding1em"><i class="fa-solid fa-building"></i> Azienda</div>
                     <div class="planDescription">
                         <h3>Professional</h3>
                         <strong>€ 12.00</strong>
@@ -202,95 +202,191 @@
                 <button class="whiteButton">Trova un partner</button>
             </div>
         </section>
+ 
 
+        <!-- section features -->
         <section class="smallSection">
-            <!-- section features -->
-            <h2>Esegui più operazioni con Dropbox Business</h2>
+    
+            <h2 class="fontSize32px marginBtm1em">Esegui più operazioni con Dropbox Business</h2>
             <div class="flex spaceBetween wrap">
-                <div class="width1-3 flex dirColumn">
-                    <img class="featureImg" src="img/business-feature-switching-tools.png" alt="">
-                    <h3>Passa di meno da uno strumento all'altro</h3>
+
+                <div class="featureBox marginBtm4rem flex dirColumn">
+                    <img class="featureImg marginBottom1rem" src="img/business-feature-switching-tools.png" alt="">
+                    <h3 class="fontSize20px marginBtm1em">Passa di meno da uno strumento all'altro</h3>
                     <p>Porta a termine le attività quotidiane con un solo strumento. Crea, modifica e condividi contenuti cloud da Documenti, Fogli e Presentazioni di Google, file Microsoft Office e Dropbox Paper direttamente da Dropbox.</p>
                 </div>
-                <div class="width1-3 flex dirColumn">
-                    <img class="featureImg" src="img/business-feature-send-files-it.png" alt="">
-                    <h3>Passa di meno da uno strumento all'altro</h3>
+                <div class="featureBox marginBtm4rem flex dirColumn">
+                    <img class="featureImg marginBottom1rem" src="img/business-feature-send-files-it.png" alt="">
+                    <h3 class="fontSize20px marginBtm1em">Passa di meno da uno strumento all'altro</h3>
                     <p>Porta a termine le attività quotidiane con un solo strumento. Crea, modifica e condividi contenuti cloud da Documenti, Fogli e Presentazioni di Google, file Microsoft Office e Dropbox Paper direttamente da Dropbox.</p>
                 </div>
-                <div class="width1-3 flex dirColumn">
-                    <img class="featureImg" src="img/business-feature-coordinate-it.png" alt="">
-                    <h3>Passa di meno da uno strumento all'altro</h3>
+                <div class="featureBox marginBtm4rem flex dirColumn">
+                    <img class="featureImg marginBottom1rem" src="img/business-feature-coordinate-it.png" alt="">
+                    <h3 class="fontSize20px marginBtm1em">Passa di meno da uno strumento all'altro</h3>
                     <p>Porta a termine le attività quotidiane con un solo strumento. Crea, modifica e condividi contenuti cloud da Documenti, Fogli e Presentazioni di Google, file Microsoft Office e Dropbox Paper direttamente da Dropbox.</p>
                 </div>
-                <div class="width1-3 flex dirColumn">
-                    <img class="featureImg" src="img/business-feature-integrations-it.png" alt="">
-                    <h3>Passa di meno da uno strumento all'altro</h3>
+                <div class="featureBox marginBtm4rem flex dirColumn">
+                    <img class="featureImg marginBottom1rem" src="img/business-feature-integrations-it.png" alt="">
+                    <h3 class="fontSize20px marginBtm1em">Passa di meno da uno strumento all'altro</h3>
                     <p>Porta a termine le attività quotidiane con un solo strumento. Crea, modifica e condividi contenuti cloud da Documenti, Fogli e Presentazioni di Google, file Microsoft Office e Dropbox Paper direttamente da Dropbox.</p>
                 </div>
-                <div class="width1-3 flex dirColumn">
-                    <img class="featureImg" src="img/business-feature-multi-device.png" alt="">
-                    <h3>Passa di meno da uno strumento all'altro</h3>
+                <div class="featureBox marginBtm4rem flex dirColumn">
+                    <img class="featureImg marginBottom1rem" src="img/business-feature-multi-device.png" alt="">
+                    <h3 class="fontSize20px marginBtm1em">Passa di meno da uno strumento all'altro</h3>
                     <p>Porta a termine le attività quotidiane con un solo strumento. Crea, modifica e condividi contenuti cloud da Documenti, Fogli e Presentazioni di Google, file Microsoft Office e Dropbox Paper direttamente da Dropbox.</p>
                 </div>
-                <div class="width1-3 flex dirColumn">
-                    <img class="featureImg" src="img/business-feature-security.png" alt="">
-                    <h3>Passa di meno da uno strumento all'altro</h3>
+                <div class="featureBox marginBtm4rem flex dirColumn">
+                    <img class="featureImg marginBottom1rem" src="img/business-feature-security.png" alt="">
+                    <h3 class="fontSize20px marginBtm1em">Passa di meno da uno strumento all'altro</h3>
                     <p>Porta a termine le attività quotidiane con un solo strumento. Crea, modifica e condividi contenuti cloud da Documenti, Fogli e Presentazioni di Google, file Microsoft Office e Dropbox Paper direttamente da Dropbox.</p>
                 </div>
             </div>
         </section>
 
+
+         <!-- aziende partner -->
         <section class="smallSection">
-            <!-- aziende partner (3 colonne con contenuto + fascione sotto) -->
-            <h2>Più di 500.000 team utilizzano Dropbox Business</h2>
-            <a href="">Scopri di più sui nostri clienti</a>
-            
+
+            <h2 class="fontSize32px marginBtm2Em">Più di 500.000 team utilizzano <br> Dropbox Business</h2>
+            <a href="">Scopri di più sui nostri clienti</a>  
+
         </section>
 
         <div class="flex width100vw">
             <div class="squareBox flex wrap">
                 <div class="smallSquare flex justifyCenter alignCenter" id="designitBox">
-                    <a class="flex justifyCenter alignCenter" href=""><img class="logoPartner" src="img/designit.svg" alt="Logo Designit"></a>
+                    <a class="flex justifyCenter alignCenter" href="#DesignitText"><img class="logoPartner" src="img/designit.svg" alt="Logo Designit"></a>
                 </div>
                 <div class="smallSquare flex justifyCenter alignCenter" id="asuBox">
-                    <img class="logoPartner" src="img/arizona_state_university.svg" alt="Logo Arizona State University">
+                    <a class="flex justifyCenter alignCenter" href="#ASUText"><img class="logoPartner" src="img/arizona_state_university.svg" alt="Logo Arizona State University"></a>
                 </div>
                 <div class="smallSquare flex justifyCenter alignCenter" id="ufBox">
-                    <img class="logoPartner" src="img/university_of_florida.svg" alt="Logo University of Florida">
+                    <a class="flex justifyCenter alignCenter" href="#UFText"><img class="logoPartner" src="img/university_of_florida.svg" alt="Logo University of Florida"></a>
                 </div>
                 <div class="smallSquare flex justifyCenter alignCenter" id="toppsBox">
-                    <img class="logoPartner" src="img/topps.svg" alt="Logo Topps">
+                    <a class="flex justifyCenter alignCenter" href="#ToppsText"><img class="logoPartner" src="img/topps.svg" alt="Logo Topps"></a>
                 </div>
             </div>
 
-            <div class="squareBox scrollBox">
-                <h1>Designit</h1>
-                <hr>
+            <div class="squareBox scrollBox padding3rem">
+                <div class="partnerFeedback" id="DesignitText">
+                    <img class="marginTop2rem" src="img/designit.svg" alt="">
+                    <hr class="marginY3rem">
+                    <blockquote>
+                        <p>
+                            “I membri del nostro team lavorano costantemente in Paesi, fusi orari e uffici diversi. Ora molte soluzioni sono compatibili con queste esigenze, ma nessuna è immediata quanto Dropbox e Dropbox Paper”
+                        </p>
+                        <br>
+                        <cite>Morten Thomsen, Global IT Lead</cite>
+                    </blockquote>
+                    <hr class="marginY3rem">
+                </div>
 
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni distinctio molestiae repellendus deleniti rem aspernatur recusandae quos laborum quae delectus temporibus repellat impedit praesentium, ullam odit dicta cupiditate numquam optio?</p>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni distinctio molestiae repellendus deleniti rem aspernatur recusandae quos laborum quae delectus temporibus repellat impedit praesentium, ullam odit dicta cupiditate numquam optio?</p>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni distinctio molestiae repellendus deleniti rem aspernatur recusandae quos laborum quae delectus temporibus repellat impedit praesentium, ullam odit dicta cupiditate numquam optio?</p>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni distinctio molestiae repellendus deleniti rem aspernatur recusandae quos laborum quae delectus temporibus repellat impedit praesentium, ullam odit dicta cupiditate numquam optio?</p>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni distinctio molestiae repellendus deleniti rem aspernatur recusandae quos laborum quae delectus temporibus repellat impedit praesentium, ullam odit dicta cupiditate numquam optio?</p>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni distinctio molestiae repellendus deleniti rem aspernatur recusandae quos laborum quae delectus temporibus repellat impedit praesentium, ullam odit dicta cupiditate numquam optio?</p>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni distinctio molestiae repellendus deleniti rem aspernatur recusandae quos laborum quae delectus temporibus repellat impedit praesentium, ullam odit dicta cupiditate numquam optio?</p>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni distinctio molestiae repellendus deleniti rem aspernatur recusandae quos laborum quae delectus temporibus repellat impedit praesentium, ullam odit dicta cupiditate numquam optio?</p>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni distinctio molestiae repellendus deleniti rem aspernatur recusandae quos laborum quae delectus temporibus repellat impedit praesentium, ullam odit dicta cupiditate numquam optio?</p>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni distinctio molestiae repellendus deleniti rem aspernatur recusandae quos laborum quae delectus temporibus repellat impedit praesentium, ullam odit dicta cupiditate numquam optio?</p>
+                <div class="partnerFeedback" id="ASUText">
+                    <img class="marginTop2rem" src="img/arizona_state_university.svg" alt="">
+                    <hr class="marginY3rem">
+                    <blockquote>
+                        <p>
+                            “Con Dropbox, gli insegnanti possono collaborare in modo sicuro con i colleghi su qualsiasi dispositivo e piattaforma, in tutto il campus e in ogni parte del mondo”.
+                        </p>
+                        <br>
+                        <cite>Tina Thorstenson, CISO</cite>
+                    </blockquote>
+                    <hr class="marginY3rem">
+                </div>
+
+                <div class="partnerFeedback" id="UFText">
+                    <img class="marginTop2rem" src="img/university_of_florida.svg" alt="">
+                    <hr class="marginY3rem">
+                    <blockquote>
+                        <p>
+                            “I nostri utenti hanno ottenuto risultati eccezionali in Dropbox senza alcun aiuto. L'implementazione di un account centralizzato ci ha permesso di sviluppare il lavoro senza interruzioni, nel modo più sicuro possibile”.
+                        </p>
+                        <br>
+                        <cite>Elias Eldayrie, vicepresidente e CIO</cite>
+                    </blockquote>
+                    <hr class="marginY3rem">
+                </div>
+
+                <div class="partnerFeedback" id="ToppsText">
+                    <img class="marginTop2rem" src="img/topps.svg" alt="">
+                    <hr class="marginY3rem">
+                    <blockquote>
+                        <p>
+                            “Siamo sempre stati pionieri nel settore delle carte e lo siamo altrettanto nello spazio digitale. Poiché ogni cosa “si trova in Dropbox”, possiamo continuare a creare fantastici progetti.”
+                        </p>
+                        <br>
+                        <cite>Chris R. Vaccaro, Director, Live Operations & Editor-in-Chief, Mobile</cite>
+                    </blockquote>
+                    <hr class="marginY3rem">
+                </div>
+
+                <div class="partnerFeedback" id="WBRText">
+                    <img class="marginTop2rem" src="img/world_bicycle_relief.svg" alt="">
+                    <hr class="marginY3rem">
+                    <blockquote>
+                        <p>
+                            “Riceviamo una grande quantità di immagini e spesso ci perdiamo le cose che non possono essere gestite via e-mail. Dropbox ci evita parecchi problemi di comunicazione perché mette sempre a disposizione di tutti le ultime versioni dei documenti”.
+                        </p>
+                        <br>
+                        <cite>Andrew Hall, Product Manager</cite>
+                    </blockquote>
+                    <hr class="marginY3rem">
+                </div>
+
+                <div class="partnerFeedback" id="HeartsCorpText">
+                    <img class="marginTop2rem" src="img/hearst_corp.svg" alt="">
+                    <hr class="marginY3rem">
+                    <blockquote>
+                        <p>
+                            “Hearst conta più di 360 aziende. Dropbox ha un ruolo molto significativo, in quanto fornisce un hub centralizzato che consente ai membri dei nostri team di accedere a tutti i contenuti di cui hanno bisogno, ovunque e da qualsiasi dispositivo. Ha completamente rivoluzionato il modo di lavorare dei team.”
+                        </p>
+                        <br>
+                        <cite>Nicole D’Antuono, VP di Employee Applications</cite>
+                    </blockquote>
+                    <hr class="marginY3rem">
+                </div>
+
+                <div class="partnerFeedback" id="LonelyPlanetText">
+                    <img class="marginTop2rem" src="img/lonely_planet.svg" alt="">
+                    <hr class="marginY3rem">
+                    <blockquote>
+                        <p>
+                            “Abbiamo sempre avuto una presenza globale, ma prima di adottare Dropbox non è mai stata così capillare. Dropbox fa sentire i nostri dipendenti come se si trovassero tutti nello stesso ufficio”.
+                        </p>
+                        <br>
+                        <cite>Daniel Jiménez, Head of Mobile Product & Design</cite>
+                    </blockquote>
+                    <hr class="marginY3rem">
+                </div>
+
+                <div class="partnerFeedback" id="ClearChannelText">
+                    <img class="marginTop2rem" src="img/clear_channel.svg" alt="">
+                    <hr class="marginY3rem">
+                    <blockquote>
+                        <p>
+                            “Ci impegniamo a creare un ambiente di lavoro di livello superiore utilizzando le migliori tecnologie disponibili. Con Dropbox abbiamo ottenuto un ritorno sull'investimento di oltre il 500%, compiendo passi da gigante per modernizzare la nostra strategia IT e migliorare la collaborazione all'interno dell'azienda”.
+                        </p>
+                        <br>
+                        <cite>Nichole Boatsman, Direttore IT</cite>
+                    </blockquote>
+                    <hr class="marginY3rem">
+                </div>
+                
             </div>
 
             <div class="squareBox flex wrap">
                 <div class="smallSquare flex justifyCenter alignCenter" id="worldBicycleBox">
-                    <img class="logoPartner" src="img/world_bicycle_relief.svg" alt="Logo World Bicycle Relief">
+                    <a class="flex justifyCenter alignCenter" href="#WBRText"><img class="logoPartner" src="img/world_bicycle_relief.svg" alt="Logo World Bicycle Relief"></a>
                 </div>
                 <div class="smallSquare flex justifyCenter alignCenter" id="hearstBox">
-                    <img class="logoPartner" src="img/hearst_corp.svg" alt="Logo Hearst Corp">
+                    <a class="flex justifyCenter alignCenter" href="#HeartsCorpText"><img class="logoPartner" src="img/hearst_corp.svg" alt="Logo Hearst Corp"></a>
                 </div>
                 <div class="smallSquare flex justifyCenter alignCenter" id="lonelyPlanetBox">
-                    <img class="logoPartner" src="img/lonely_planet.svg" alt="Logo Lonely Planet">
+                    <a class="flex justifyCenter alignCenter" href="#LonelyPlanetText"><img class="logoPartner" src="img/lonely_planet.svg" alt="Logo Lonely Planet"></a>
                 </div>
                 <div class="smallSquare flex justifyCenter alignCenter" id="clearChannelBox">
-                    <img class="logoPartner" src="img/clear_channel.svg" alt="Logo Clear Channel">
+                    <a class="flex justifyCenter alignCenter" href="#ClearChannelText"><img class="logoPartner" src="img/clear_channel.svg" alt="Logo Clear Channel"></a>
                 </div>
             </div>
         </div>
