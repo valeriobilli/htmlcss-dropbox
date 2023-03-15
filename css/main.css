@@ -200,6 +200,11 @@ ul {
     list-style: none;
 }
 
+li {
+    padding: 0px;
+}
+
+
 h2 {
     font-size: 30px;
 }
@@ -366,16 +371,23 @@ input {
     width: 1025px;
 }
 
+/* section FAQ */
 
+#faqSection {
+    margin-bottom: 100px;
+}
 
+.answer {
+    display: none;
+}
 
+.question:hover + .answer {
+    display: block;
+    pointer-events: none;
+}
 
-
-
-
-
-
-
-
+.question:hover i {
+    transform: rotate(180deg);
+}
 
 

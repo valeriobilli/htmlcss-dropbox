@@ -60,7 +60,7 @@
                     <button class="blueButton marginBottom2Em">Inizia la tua prova gratuita</button>
                     <div class="marginBottom5Em">Annulla in qualsiasi momento</div>
                     <div>
-                        <a id="linkArrow" class="posAbsolute" href=""><i class="fa-solid fa-arrow-down"></i></a>
+                        <a id="linkArrow" class="posAbsolute" href="#businessPlanSection"><i class="fa-solid fa-arrow-down"></i></a>
                     </div>
                 </div>
 
@@ -71,7 +71,7 @@
             </div>
         </section>
 
-        <section class="smallSection businessPlanSctn">
+        <section class="smallSection businessPlanSctn" id="businessPlanSection">
             <!-- piano business (3 colonne uguali e una riga sotto) -->
             
             <h2 class="marginBottom2Em">Trova il piano business che fa per te</h2>
@@ -116,14 +116,14 @@
                 <div class="width30 columnPlan">
                     <div class="colTitle"><i class="fa-solid fa-user"></i> Singolo</div>
                     <div class="planDescription">
-                        <h3>Professional</h3>
-                        <strong>€ 12.00</strong>
+                        <h3>Advanced</h3>
+                        <strong>€ 18.00</strong>
                         <div>/mese</div>
                         <br>
                         <ul>
-                            <li>1 utente</li>
-                            <li>5 TB di spazio di archiviazione sicuro</li>
-                            <li>Funzioni di produttività premium e condivisione semplice e sicura</li>
+                            <li>3 o più utenti</li>
+                            <li>Tutto lo spazio di cui ha bisogno il tuo team</li>
+                            <li>Sofisticate funzioni di controllo e per tenere al sicuro tutti i file del tuo team</li>
                         </ul>             
                     </div>
                     <button class="blueButton freeTrialButton">Prova gratis per 30 giorni</button>
@@ -136,10 +136,11 @@
                     <div class="planSummary">
                         <strong>Punti salienti del piano</strong>
                         <ul>
-                            <li>Invia file fino a 100 GB con Dropbox Transfert</li>
+                            <li>Nessun limite di spazio per i file</li>
                             <li>Cartelle offline su dispositivi mobili</li>
-                            <li>Invia file fino a 100 GB con Dropbox Transfert</li>
-                            <li>Cartelle offline su dispositivi mobili</li>
+                            <li>Risparmio del 50% rispetto alle iscrizioni singole</li>
+                            <li>Possibilità di inserire nuovi membri del team</li>
+                            <li>Gestione dei permessi in base ai ruoli</li>
                         </ul>
                     </div>
                 </div>
@@ -248,7 +249,7 @@
         <div class="flex width100vw">
             <div class="squareBox flex wrap">
                 <div class="smallSquare flex justifyCenter alignCenter" id="designitBox">
-                    <img class="logoPartner" src="img/designit.svg" alt="Logo Designit">
+                    <a class="flex justifyCenter alignCenter" href=""><img class="logoPartner" src="img/designit.svg" alt="Logo Designit"></a>
                 </div>
                 <div class="smallSquare flex justifyCenter alignCenter" id="asuBox">
                     <img class="logoPartner" src="img/arizona_state_university.svg" alt="Logo Arizona State University">
@@ -300,19 +301,29 @@
             </div>
         </section>
 
-        <section class="width100vw">
-            <div class="smallSection">
-                <h2>Domande frequenti</h2>
-                <hr>
-                <div>Qual è la differenza tra Dropbox Standard e Dropbox Business Advanced?</div>
-                <hr>
-                <div>Qual è la differenza tra Dropbox Standard e Dropbox Business Advanced?</div>
-                <hr>
-                <div>Qual è la differenza tra Dropbox Standard e Dropbox Business Advanced?</div>
-                <hr>
-            </div>
-            <!-- domande frequenti con testo in hover -->
 
+        <!-- section FAQ -->
+        <section class="smallSection" id="faqSection">
+            <h2>Domande frequenti</h2>
+            <hr>
+            <div class="flex spaceBetween question">
+                <strong>Che cos'è Dropbox e come funziona?</strong>
+                <i class="fa-solid fa-angle-down"></i>
+            </div>
+            <p class="answer">Dropbox è un servizio sicuro di archiviazione file basato sul cloud dove poter salvare tutti i tuoi file e accedervi da qualsiasi posizione e tramite qualsiasi dispositivo. È un'area di lavoro per team distribuiti dove poter organizzare i contenuti e accedervi in un unico spazio di lavoro del team. Per altre informazioni, consulta il nostro Centro assistenza.</p>
+            <hr>
+            <div class="flex spaceBetween question">
+                <strong>Quale piano Dropbox è più adatto alle mie esigenze? Dove posso trovare maggiori informazioni sui piani?</strong>
+                <i class="fa-solid fa-angle-down"></i>
+            </div>
+            <p class="answer">Dropbox offre piani che soddisfano le esigenze di tutti, dagli utenti individuali alle aziende Fortune 500. Scopri qui quale piano offre esattamente ciò di cui hai bisogno.</p>
+            <hr>
+            <div class="flex spaceBetween question">
+                <strong>Io o le persone con cui condivido i file dobbiamo avere un account per visualizzarli?</strong>
+                <i class="fa-solid fa-angle-down"></i>
+            </div>
+            <p class="answer">Per archiviare e condividere i file è necessario un account, tuttavia chiunque può visualizzare i file condivisi, anche se non possiede un account Dropbox.</p>
+            <hr>
         </section>
     </main>
 
