@@ -390,4 +390,17 @@ input {
     transform: rotate(180deg);
 }
 
+/* footer */
+
+footer {
+    background-color: black;
+    color: white;
+    height: 500px;
+}
+
+.largeSection {
+    width: 1210px;
+    margin: auto;
+}
+
 
