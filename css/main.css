@@ -106,10 +106,6 @@ a {
     right: 0px;
 }
 
-.floatRight { 
-    float: right;
-}
-
 /* ///////////////// */
 
 /* ELEMENTI PAGINA*/
@@ -249,6 +245,12 @@ input {
     height: 250px;
     margin-top: 3rem;
     border: 1px solid black;
+}
+
+.salesOfficeButton {
+    position: absolute;
+    top: 1em;
+    right: 1em;
 }
 
 /* section trova un partner */
