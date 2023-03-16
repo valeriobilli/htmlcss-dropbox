@@ -50,7 +50,6 @@
 
 
 /* WIDTH */
-.width100vw { width: 100vw; }
 .width30 { width: 30%; }
 .width35 { width: 35%; }
 .width65 { width: 65%; }
@@ -192,7 +191,6 @@ h1 {
 }
 
 #jumboSection {
-    width: 100vw;
     background-color: #b4d0e7;
     height: 820px;
 }
