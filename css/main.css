@@ -5,7 +5,29 @@
     box-sizing: border-box;
 }
 
-/* GENERICHE */
+/* HELPERS */
+
+.padding1em {
+    padding: 1em;
+}
+
+.padding2Em {
+    padding: 2em;
+}
+
+.padding1rem {
+    padding: 1rem;
+}
+
+.padding2rem {
+    padding: 2rem;
+}
+
+.padding3rem {
+    padding: 3rem;
+}
+
+
 
 .margin1rem {
     margin: 1rem;
@@ -31,12 +53,24 @@
     margin-bottom: 1rem;
 }
 
+.marginBtm2rem {
+    margin-bottom: 2rem;
+}
+
 .marginBtm4rem {
     margin-bottom: 4rem;
 }
 
 .marginTop2rem {
     margin-top: 2rem;
+}
+
+.marginTop2em {
+    margin-top: 2em;
+}
+
+.marginTop8rem {
+    margin-top: 8rem;
 }
 
 .marginTop2_5em {
@@ -51,24 +85,12 @@
     margin-left: 1rem;
 }
 
+.marginRight0_5em {
+    margin-right: 0.5em;
+}
+
 .marginRight3em {
     margin-right: 3em;
-}
-
-.padding1rem {
-    padding: 1rem;
-}
-
-.padding3rem {
-    padding: 3rem;
-}
-
-.padding1em {
-    padding: 1em;
-}
-
-.padding2Em {
-    padding: 2em;
 }
 
 .width33 {
@@ -142,6 +164,10 @@
 }
 
 /* fontsize */
+
+.fontSize12px {
+    font-size: 12px;
+}
 
 .fontSize14px {
     font-size: 14px;
@@ -239,23 +265,6 @@ h1 {
     border: 1px solid grey;
 }
 
-.planSummary * {
-    margin: 1.5em;
-}
-
-ul {
-    list-style: none;
-}
-
-li {
-    padding: 0px;
-}
-
-
-h2 {
-    font-size: 30px;
-}
-
 input {
     margin-bottom: 3em;
 }
@@ -266,6 +275,10 @@ input {
     border-bottom: 1px solid #999;
 }
 
+ul {
+    list-style: none;
+}
+
 .blueButton {
     background-color: #0061ff;
     color: white;
@@ -274,19 +287,18 @@ input {
 }
 
 .freeTrialButton {
-    width: 83%;
-    margin: 2em;
+    width: 100%;
+    margin: 2em auto;
 }
 
-.buyNow {
-    margin: 1.5em;
-}
-
-.columnPlan > hr {
+.columnPlan hr {
     margin-top: 2rem;
     margin-bottom: 2rem;
-    margin-left: 1.5rem;
     width: 50px;
+}
+
+.fa-check {
+    color: #0061ff;
 }
 
 .rowBusiness {
@@ -330,7 +342,7 @@ input {
     background-color: white;
     color: black;
     border: 1px solid gray;
-    padding: 1em;
+    padding: 1em 3em;
 }
 
 /* section features */
@@ -367,7 +379,6 @@ input {
 
 #designitBox {
     background-color: #a2d39b;
-    border: 1em solid #d1e9cd;
 }
 
 #asuBox {
@@ -428,7 +439,6 @@ blockquote {
 /* section free trial */
 
 #freeTrialSection {
-    height: 360px;
     background-color: #b4d0e7;
 }
 
@@ -436,10 +446,24 @@ blockquote {
     width: 1025px;
 }
 
+#freeTrialBox h2 {
+    color: #61082b;
+    margin: 4em 0;
+}
+
+#freeTrialBox button {
+    right: 0px;
+    bottom: calc(50%)
+}
+
 /* section FAQ */
 
 #faqSection {
     margin-bottom: 100px;
+}
+
+#faqSection hr {
+    margin: 2.5rem 0;
 }
 
 .answer {
