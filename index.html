@@ -17,31 +17,31 @@
     <header class="flex spaceBetween">
 
         <div class="flex spaceBetween alignCenter">
-             <span>
+             <span class="padding1_5em">
                 <img src="img/logo-small.png" alt="Logo Dropbox">
              </span>
-             <span>
+             <span class="padding1_5em">
                 <a class="aNoStyle" href="">Perchè Dropbox</a>
              </span>
-             <span>
+             <span class="padding1_5em">
                 <a class="aNoStyle" href="">Funzioni</a>
              </span>
-             <span>
+             <span class="padding1_5em">
                 <a class="aNoStyle" href="">Piani e Prezzi</a>
              </span>
         </div>
 
         <div class="flex spaceBetween alignCenter"> 
-            <span>
+            <span class="padding1_5em">
                 <a class="aNoStyle" href="">Supporto</a>
              </span>
-             <span>
+             <span class="padding1_5em">
                 <a class="aNoStyle" href="">Contatta l'ufficio vendite</a>
              </span>
-             <span>
+             <span class="padding1_5em">
                 <a class="aNoStyle" href="">Accedi</a>
              </span>
-             <span>
+             <span class="padding1_5em">
                <button class="headerButton">Inizia</button>
              </span>
         </div>
@@ -51,45 +51,45 @@
 
     <!-- MAIN -->
     <main>
-        <!-- jumbosection -->
+        <!-- Jumbotron Section -->
         <section id="jumboSection">
             
-            <div class="jumboBox flex wrap">
-                <h1 class="marginBtm0_75em marginTop2_5em">Tutto ciò che ti serve per il lavoro, in un unico posto</h1>  
+            <div class="largeSection flex wrap">
+                <h1 class="marginBtm0_75em marginTop2_5em fontSize70px">Tutto ciò che ti serve per il lavoro, in un unico posto</h1>  
                 <div class="width30 posRelative">
                     <p class="marginBtm2em">Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dallo stesso posto. Dropbox Business è più di un nuovo spazio di archiviazione sicuro: è un modo intelligente e integrato per ottimizzare il flusso di lavoro eistente.</p>
                     <button class="blueButton marginBtm2em">Inizia la tua prova gratuita</button>
-                    <div class="marginBottom5Em">Annulla in qualsiasi momento</div>
+                    <div class="marginBtm5em">Annulla in qualsiasi momento</div>
                     <div>
                         <a id="linkArrow" class="aNoStyle posAbsolute" href="#businessPlanSection"><i class="fa-solid fa-arrow-down"></i></a>
                     </div>
                 </div>
 
                 <div class="width70">
-                     <img class="jumboImg" src="img/jumbo.png" alt="">
+                     <img class="width100" src="img/jumbo.png" alt="">
                 </div>
 
             </div>
         </section>
 
-        <!-- section piano business -->
+        <!-- Business Plans Section -->
         <section class="smallSection businessPlanSctn" id="businessPlanSection">
             
             <h2 class="marginBtm2em fontSize34px">Trova il piano business che fa per te</h2>
             <div>
-                <input type="radio" name="periodo-fatturazione" id="fatturazione" placeholder="">
+                <input class="marginBtm3em" type="radio" name="periodo-fatturazione" id="fatturazione" placeholder="">
                 <label class="fontSize14px marginRight3em" for="fatturazioneMensile">Fatturazione mensile</label>
-                <input type="radio" name="periodo-fatturazione" id="fatturazioneMensile">
+                <input class="marginBtm3em" type="radio" name="periodo-fatturazione" id="fatturazioneMensile">
                 <label class="fontSize14px marginRight3em" for="fatturazione">Fatturazione mensile</label>
             </div>  
 
             <div class="flex spaceBetween">
 
-                <div class="width30 columnPlan">
-                    <div class="colTitle padding1em">
+                <div class="width30 borderGray">
+                    <div class="colTitle width100 padding1em">
                         <i class="fa-solid fa-user"></i> Singolo
                     </div>
-                    <div class="padding2rem">
+                    <div class="columnBody padding2rem">
                         <h3 class="fontSize20px marginBtm2rem">Professional</h3>
                         <strong class="fontSize14px">€ 12.00</strong>
                         <div class="fontSize12px marginTop2rem marginBtm3rem colorGray">/mese</div>
@@ -98,7 +98,7 @@
                             <li class="flex marginBtm2em"><i class="marginRight0_5em fa-solid fa-folder"></i> 5 TB di spazio di archiviazione sicuro</li>
                             <li class="flex marginBtm2em"><i class="marginRight0_5em fa-solid fa-share-nodes"></i> Funzioni di produttività premium e condivisione semplice e sicura</li>
                         </ul> 
-                        <button class="blueButton freeTrialButton">Prova gratis per 30 giorni</button> 
+                        <button class="blueButton freeTrialButton width100">Prova gratis per 30 giorni</button> 
                         <div>oppure <a href="">acquista ora</a></div> 
                         <hr>  
                         <strong>Punti salienti del piano</strong>
@@ -109,11 +109,11 @@
                     </div>
                 </div>
 
-                <div class="width30 columnPlan">
-                    <div class="colTitle padding1em">
+                <div class="width30 borderGray">
+                    <div class="colTitle width100 padding1em">
                         <i class="fa-solid fa-users"></i> Team
                     </div>
-                    <div class="padding2rem">
+                    <div class="columnBody padding2rem">
                         <h3 class="fontSize20px marginBtm2rem">Advanced</h3>
                         <strong class="fontSize14px">€ 18.00</strong>
                         <div class="fontSize12px marginTop2rem marginBtm3rem colorGray">/utente/mese</div>
@@ -122,7 +122,7 @@
                             <li class="flex marginBtm2em"><i class="marginRight0_5em fa-solid fa-folder"></i> Tutto lo spazio di cui ha bisogno il tuo team</li>
                             <li class="flex marginBtm2em"><i class="marginRight0_5em fa-solid fa-share-nodes"></i> Sofisticate funzioni di controllo e per tenere al sicuro tutti i file del tuo team</li>
                         </ul> 
-                        <button class="blueButton freeTrialButton">Prova gratis per 30 giorni</button> 
+                        <button class="blueButton freeTrialButton width100">Prova gratis per 30 giorni</button> 
                         <div>oppure <a href="">acquista ora</a></div> 
                         <hr>  
                         <strong>Punti salienti del piano</strong>
@@ -136,11 +136,11 @@
                     </div>
                 </div>
 
-                <div class="width30 columnPlan">
-                    <div class="colTitle padding1em">
+                <div class="width30 borderGray">
+                    <div class="colTitle width100 padding1em">
                         <i class="fa-solid fa-building"></i> Azienda
                     </div>
-                    <div class="padding2rem">
+                    <div class="columnBody padding2rem">
                         <h3 class="fontSize20px marginBtm2rem">Enterprise</h3>
                         <strong class="fontSize14px">Contattaci</strong>
                         <div class="fontSize12px marginTop2rem marginBtm3rem">-</div>
@@ -149,7 +149,7 @@
                             <li class="flex marginBtm2em"><i class="marginRight0_5em fa-solid fa-folder"></i> Soluzioni personalizzabili per la tua azienda</li>
                             <li class="flex marginBtm2em"><i class="marginRight0_5em fa-solid fa-share-nodes"></i> Assistenza personalizzata per aiutare gli amministratori in una gestione su larga scala</li>
                         </ul> 
-                        <button class="blueButton freeTrialButton">Contattaci</button> 
+                        <button class="blueButton freeTrialButton width100">Contattaci</button> 
                         <div>oppure <a href="">acquista ora</a></div> 
                         <hr>  
                         <strong>Punti salienti del piano</strong>
@@ -162,8 +162,8 @@
                 </div>
             </div>
         
-            <div class="rowBusiness">
-                <div class="colTitle padding1em">
+            <div class="width100 marginTop3rem borderGray">
+                <div class="colTitle width100 padding1em">
                     <i class="fa-solid fa-building"></i> Team
                 </div>
                 <div class="padding2rem posRelative">
@@ -176,52 +176,53 @@
             
         </section>
 
+        <!-- Find a Partner Section -->
         <section class="smallSection flex">
-            <!-- trova un partner -->
-            <div class="boxImg">
-                <img class="imgBoxed" src="img/partner.png" alt="">
+        
+            <div class="width65">
+                <img class="width100" src="img/partner.png" alt="">
             </div>
-            <div class="textBox">
-                <h3>Entra in contatto con un partner Dropbox</h3>
-                <p class="fontSize14px">Trova un partner Dropbox e HelloSign di fiducia. Ottieni le soluzioni e i servizi necessari per raggiungere i tuoi obiettivi aziendali, tra cui implementazione, integrazione, gestione e supporto continui.</p>
+            <div class="padding3rem width35">
+                <h3 class="marginBtm2rem">Entra in contatto con un partner Dropbox</h3>
+                <p class="fontSize14px marginBtm2rem">Trova un partner Dropbox e HelloSign di fiducia. Ottieni le soluzioni e i servizi necessari per raggiungere i tuoi obiettivi aziendali, tra cui implementazione, integrazione, gestione e supporto continui.</p>
                 <button class="whiteButton">Trova un partner</button>
             </div>
         </section>
  
 
-        <!-- section features -->
+        <!-- Features Section -->
         <section class="smallSection">
     
             <h2 class="fontSize34px marginBtm2em">Esegui più operazioni con Dropbox Business</h2>
             <div class="flex spaceBetween wrap">
 
                 <div class="featureBox marginBtm4rem flex dirColumn">
-                    <img class="featureImg marginBottom1rem" src="img/business-feature-switching-tools.png" alt="">
+                    <img class="width100 marginBtm1rem" src="img/business-feature-switching-tools.png" alt="">
                     <h3 class="fontSize20px marginBtm1em">Passa di meno da uno strumento all'altro</h3>
                     <p>Porta a termine le attività quotidiane con un solo strumento. Crea, modifica e condividi contenuti cloud da Documenti, Fogli e Presentazioni di Google, file Microsoft Office e Dropbox Paper direttamente da Dropbox.</p>
                 </div>
                 <div class="featureBox marginBtm4rem flex dirColumn">
-                    <img class="featureImg marginBottom1rem" src="img/business-feature-send-files-it.png" alt="">
+                    <img class="width100 marginBtm1rem" src="img/business-feature-send-files-it.png" alt="">
                     <h3 class="fontSize20px marginBtm1em">Passa di meno da uno strumento all'altro</h3>
                     <p>Porta a termine le attività quotidiane con un solo strumento. Crea, modifica e condividi contenuti cloud da Documenti, Fogli e Presentazioni di Google, file Microsoft Office e Dropbox Paper direttamente da Dropbox.</p>
                 </div>
                 <div class="featureBox marginBtm4rem flex dirColumn">
-                    <img class="featureImg marginBottom1rem" src="img/business-feature-coordinate-it.png" alt="">
+                    <img class="width100 marginBtm1rem" src="img/business-feature-coordinate-it.png" alt="">
                     <h3 class="fontSize20px marginBtm1em">Passa di meno da uno strumento all'altro</h3>
                     <p>Porta a termine le attività quotidiane con un solo strumento. Crea, modifica e condividi contenuti cloud da Documenti, Fogli e Presentazioni di Google, file Microsoft Office e Dropbox Paper direttamente da Dropbox.</p>
                 </div>
                 <div class="featureBox marginBtm4rem flex dirColumn">
-                    <img class="featureImg marginBottom1rem" src="img/business-feature-integrations-it.png" alt="">
+                    <img class="width100 marginBtm1rem" src="img/business-feature-integrations-it.png" alt="">
                     <h3 class="fontSize20px marginBtm1em">Passa di meno da uno strumento all'altro</h3>
                     <p>Porta a termine le attività quotidiane con un solo strumento. Crea, modifica e condividi contenuti cloud da Documenti, Fogli e Presentazioni di Google, file Microsoft Office e Dropbox Paper direttamente da Dropbox.</p>
                 </div>
                 <div class="featureBox marginBtm4rem flex dirColumn">
-                    <img class="featureImg marginBottom1rem" src="img/business-feature-multi-device.png" alt="">
+                    <img class="width100 marginBtm1rem" src="img/business-feature-multi-device.png" alt="">
                     <h3 class="fontSize20px marginBtm1em">Passa di meno da uno strumento all'altro</h3>
                     <p>Porta a termine le attività quotidiane con un solo strumento. Crea, modifica e condividi contenuti cloud da Documenti, Fogli e Presentazioni di Google, file Microsoft Office e Dropbox Paper direttamente da Dropbox.</p>
                 </div>
                 <div class="featureBox marginBtm4rem flex dirColumn">
-                    <img class="featureImg marginBottom1rem" src="img/business-feature-security.png" alt="">
+                    <img class="width100 marginBtm1rem" src="img/business-feature-security.png" alt="">
                     <h3 class="fontSize20px marginBtm1em">Passa di meno da uno strumento all'altro</h3>
                     <p>Porta a termine le attività quotidiane con un solo strumento. Crea, modifica e condividi contenuti cloud da Documenti, Fogli e Presentazioni di Google, file Microsoft Office e Dropbox Paper direttamente da Dropbox.</p>
                 </div>
@@ -229,7 +230,7 @@
         </section>
 
 
-         <!-- aziende partner -->
+         <!-- Partner Companies Section -->
         <section class="smallSection">
 
             <h2 class="fontSize34px marginBtm2em">Più di 500.000 team utilizzano <br> Dropbox Business</h2>
@@ -376,6 +377,7 @@
             </div>
         </div>
 
+        <!-- Free Trial Section -->
         <section class="width100vw flex justifyCenter alignCenter" id="freeTrialSection">
             <div id="freeTrialBox" class="posRelative">
                 <h2 class="fontSize32px">Porta Dropbox Business <br> nella tua azienda</h2>
@@ -384,31 +386,33 @@
         </section>
 
 
-        <!-- section FAQ -->
+        <!-- FAQ Section -->
         <section class="smallSection" id="faqSection">
             <h2 class="fontSize34px marginBtm1em">Domande frequenti</h2>
             
-            <div class="flex spaceBetween question">
+            <div class="flex spaceBetween paddingY2_5rem question">
                 <strong>Che cos'è Dropbox e come funziona?</strong>
                 <i class="fa-solid fa-angle-down"></i>
             </div>
-            <p class="answer">Dropbox è un servizio sicuro di archiviazione file basato sul cloud dove poter salvare tutti i tuoi file e accedervi da qualsiasi posizione e tramite qualsiasi dispositivo. È un'area di lavoro per team distribuiti dove poter organizzare i contenuti e accedervi in un unico spazio di lavoro del team. Per altre informazioni, consulta il nostro Centro assistenza.</p>
+            <p class="answer marginBtm2_5rem ">Dropbox è un servizio sicuro di archiviazione file basato sul cloud dove poter salvare tutti i tuoi file e accedervi da qualsiasi posizione e tramite qualsiasi dispositivo. È un'area di lavoro per team distribuiti dove poter organizzare i contenuti e accedervi in un unico spazio di lavoro del team. Per altre informazioni, consulta il nostro Centro assistenza.</p>
             
-            <div class="flex spaceBetween question">
+            <div class="flex spaceBetween paddingY2_5rem question">
                 <strong>Quale piano Dropbox è più adatto alle mie esigenze? Dove posso trovare maggiori informazioni sui piani?</strong>
                 <i class="fa-solid fa-angle-down"></i>
             </div>
-            <p class="answer">Dropbox offre piani che soddisfano le esigenze di tutti, dagli utenti individuali alle aziende Fortune 500. Scopri qui quale piano offre esattamente ciò di cui hai bisogno.</p>
+            <p class="answer marginBtm2_5rem">Dropbox offre piani che soddisfano le esigenze di tutti, dagli utenti individuali alle aziende Fortune 500. Scopri qui quale piano offre esattamente ciò di cui hai bisogno.</p>
             
-            <div class="flex spaceBetween question">
+            <div class="flex spaceBetween paddingY2_5rem question">
                 <strong>Io o le persone con cui condivido i file dobbiamo avere un account per visualizzarli?</strong>
                 <i class="fa-solid fa-angle-down"></i>
             </div>
-            <p class="answer">Per archiviare e condividere i file è necessario un account, tuttavia chiunque può visualizzare i file condivisi, anche se non possiede un account Dropbox.</p>
+            <p class="answer marginBtm2_5rem">Per archiviare e condividere i file è necessario un account, tuttavia chiunque può visualizzare i file condivisi, anche se non possiede un account Dropbox.</p>
             <hr>
         </section>
     </main>
 
+
+    <!-- FOOTER -->
     <footer>
         <section class="largeSection flex spaceBetween">
             <div class="flex dirColumn">

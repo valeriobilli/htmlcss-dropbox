@@ -1,133 +1,72 @@
-/* RESET */
+/*************** RESET ***************/
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* HELPERS */
+/*************** HELPERS ***************/
 
-.padding1em {
-    padding: 1em;
-}
+/* PADDING */
+.padding1em { padding: 1em; }
+.padding1_5em { padding: 1.5em; }
+  
+.padding1rem { padding: 1rem; }
+.padding2rem { padding: 2rem; }
+.padding3rem { padding: 3rem; }
 
-.padding2Em {
-    padding: 2em;
-}
+.paddingY2_5rem { padding: 2.5rem 0; }
 
-.padding1rem {
-    padding: 1rem;
-}
+/* MARGIN */
+.margin1rem { margin: 1rem; }
+.margin1_5rem { margin: 1.5rem; }
 
-.padding2rem {
-    padding: 2rem;
-}
+.marginY3rem { margin: 3rem 0; }
 
-.padding3rem {
-    padding: 3rem;
-}
+/* margin top */
+.marginTop2_5em { margin-top: 2.5em; }
+
+.marginTop2rem { margin-top: 2rem; }
+.marginTop3rem { margin-top: 3rem; }
+.marginTop8rem { margin-top: 8rem; }
+
+/* margin right */
+.marginRight0_5em { margin-right: 0.5em; }
+.marginRight3em { margin-right: 3em; }
+
+/* margin bottom */
+.marginBtm0_75em { margin-bottom: 0.75em; }
+.marginBtm1em { margin-bottom: 1em; }
+.marginBtm2em { margin-bottom: 2em; }
+.marginBtm3em { margin-bottom: 3em; }
+.marginBtm5em { margin-bottom: 5em; }
+
+.marginBtm1rem { margin-bottom: 1rem; }
+.marginBtm2rem { margin-bottom: 2rem; }
+.marginBtm2_5rem { margin-bottom: 2.5rem; }
+.marginBtm3rem { margin-bottom: 3rem; }
+.marginBtm4rem { margin-bottom: 4rem; }
 
 
+/* WIDTH */
+.width100vw { width: 100vw; }
+.width30 { width: 30%; }
+.width35 { width: 35%; }
+.width65 { width: 65%; }
+.width70 { width: 70%; }
+.width100 { width: 100% }
 
-.margin1rem {
-    margin: 1rem;
-}
+/* FONTSIZE */
+.fontSize12px { font-size: 12px; }
+.fontSize14px { font-size: 14px; }
+.fontSize20px { font-size: 20px; }
+.fontSize34px { font-size: 34px; }
+.fontSize70px { font-size: 70px; }
 
-.marginY3rem {
-    margin: 3rem 0;
-}
 
-.marginBtm1em {
-    margin-bottom: 1em;
-}
-
-.marginBtm0_75em {
-    margin-bottom: 0.75em;
-}
-
-.marginBtm2em {
-    margin-bottom: 2em;
-}
-
-.marginBottom1rem {
-    margin-bottom: 1rem;
-}
-
-.marginBtm2rem {
-    margin-bottom: 2rem;
-}
-
-.marginBtm3rem {
-    margin-bottom: 3rem;
-}
-
-.marginBtm4rem {
-    margin-bottom: 4rem;
-}
-
-.marginTop2rem {
-    margin-top: 2rem;
-}
-
-.marginTop3rem {
-    margin-top: 3rem;
-}
-
-.marginTop2em {
-    margin-top: 2em;
-}
-
-.marginTop8rem {
-    margin-top: 8rem;
-}
-
-.marginTop2_5em {
-    margin-top: 2.5em;
-}
-
-.marginBottom5Em {
-    margin-bottom: 5em;
-}
-
-.marginLeft1Rem {
-    margin-left: 1rem;
-}
-
-.marginRight0_5em {
-    margin-right: 0.5em;
-}
-
-.marginRight3em {
-    margin-right: 3em;
-}
-
-.width33 {
-    width: calc(100% / 3);
-}
-
-.width1-3 {
-    width: calc(90% / 3);
-}
-
-.width100vw {
-    width: 100vw;
-}
-
-.width30 {
-    width: 30%;
-}
-
-.width70 {
-    width: 70%;
-}
-
-.width {
-    width: 100%;
-}
-
-/* flex */
-
-.flex {
+/* FLEX */
+.flex { 
     display: flex;
 }
 
@@ -143,10 +82,6 @@
     justify-content: space-between;
 }
 
-.spaceAround {
-    justify-content: space-around;
-}
-
 .alignCenter {
     align-items: center;
 }
@@ -156,8 +91,7 @@
 }
 
 
-/* position */
-
+/* POSITION */
 .posRelative {
     position: relative;
 }
@@ -171,27 +105,12 @@
     right: 0px;
 }
 
-/* fontsize */
+/* ////////////////////////////// */
 
-.fontSize12px {
-    font-size: 12px;
-}
 
-.fontSize14px {
-    font-size: 14px;
-}
+/*************** ELEMENTI PAGINA ***************/
 
-.fontSize20px {
-    font-size: 20px;
-}
-
-.fontSize34px {
-    font-size: 34px;
-}
-
-/* ///////////////// */
-
-/* ELEMENTI PAGINA*/
+/* GENERICI */
 
 body {
     font-family: 'Open Sans', sans-serif;
@@ -201,6 +120,19 @@ body {
     text-decoration: none;
     color: black;
 }
+
+.borderBlack {
+    border: 1px solid black;
+}
+
+.borderGray {
+    border: 1px solid #999;
+}
+
+.colorGray {
+    color: #999;
+}
+
 
 /* HEADER */
 
@@ -213,47 +145,29 @@ header {
     box-shadow: 0px 1px 2px 1px rgba(156,153,153,0.46);
     -webkit-box-shadow: 0px 1px 2px 1px rgba(156,153,153,0.46);
     -moz-box-shadow: 0px 1px 2px 1px rgba(156,153,153,0.46);
-
-}
-
-header span {
-    padding: 1.5em 1.5em;
 }
 
 .headerButton {
     background-color: #0061ff;
     color: white;
+    font-size: 16px;
     border: none;
     padding: 0.5em 1em;
 }
 
-/* ///////////////// */
 
 /* MAIN */
 
-/* jumbosection */
+/* Jumbotron Section */
+
+h1 {
+    width: 1070px;
+}
 
 #jumboSection {
     width: 100vw;
     background-color: #b4d0e7;
     height: 820px;
-
-}
-
-h1 {
-    font-size: 70px;
-    width: 1210px;
-    margin-top: 160px;
-    
-}
-
-.jumboBox {
-    width: 1210px;
-    margin: auto;
-}
-
-.jumboImg {
-    width: 100%;
 }
 
 #linkArrow {
@@ -261,7 +175,7 @@ h1 {
     font-size: 50px;
 }
 
-/* business plan section */
+/* Business Plans Section */
 
 .smallSection {
     width: 1025px;
@@ -269,16 +183,7 @@ h1 {
     padding-top: 150px;
 }
 
-.columnPlan {
-    border: 1px solid grey;
-}
-
-input {
-    margin-bottom: 3em;
-}
-
 .colTitle {
-    width: 100%;
     text-align: center;
     border-bottom: 1px solid #999;
 }
@@ -295,11 +200,10 @@ ul {
 }
 
 .freeTrialButton {
-    width: 100%;
     margin: 2em auto;
 }
 
-.columnPlan hr {
+.columnBody hr {
     margin-top: 2rem;
     margin-bottom: 2rem;
     width: 50px;
@@ -307,16 +211,6 @@ ul {
 
 .fa-check {
     color: #0061ff;
-}
-
-.colorGray {
-    color: #999;
-}
-
-.rowBusiness {
-    width: 100%;
-    margin-top: 3rem;
-    border: 1px solid black;
 }
 
 #salesOfficeButton {
@@ -327,28 +221,7 @@ ul {
 
 }
 
-/* section trova un partner */
-
-.boxImg {
-    width: 65%;
-}
-
-.imgBoxed {
-    width: 100%;
-}
-
-#partnerImg {
-    width: 100%;
-}
-
-.textBox {
-    width: 35%;
-    padding: 3rem;
-}
-
-.textBox > * {
-    margin-bottom: 1.5rem;
-}
+/* Find a Partner Section */
 
 .whiteButton {
     background-color: white;
@@ -357,27 +230,13 @@ ul {
     padding: 1em;
 }
 
-/* section features */
+/* Features Section */
 
 .featureBox {
     width: calc(100% / 3 - 3rem)
 }
 
-.featureImg {
-    width: 100%;
-}
-
-.squareImg {
-    width: 50%;
-}
-
-
-/* section aziende partner */
-
-.squareDiv {
-    width: 50%;
-    height: 50%;
-}
+/* Partner Companies Section */
 
 .squareBox {
     width: calc(100% / 3);
@@ -448,7 +307,7 @@ blockquote {
     width: 20%;
 }
  
-/* section free trial */
+/* Free Trial Section */
 
 #freeTrialSection {
     background-color: #b4d0e7;
@@ -468,7 +327,7 @@ blockquote {
     bottom: calc(50%)
 }
 
-/* section FAQ */
+/* FAQ Section */
 
 #faqSection {
     margin-bottom: 100px;
@@ -476,13 +335,10 @@ blockquote {
 
 .answer {
     display: none;
-    margin-bottom: 2.5rem;
 }
 
 .question {
-    padding: 2.5rem 0;
     border-top: 1px solid black;
-   
 }
 
 .question:hover + .answer {
@@ -494,7 +350,8 @@ blockquote {
     transform: rotate(180deg);
 }
 
-/* footer */
+
+/* FOOTER */
 
 footer {
     background-color: black;
@@ -515,5 +372,3 @@ footer hr {
     width: 120px;
     margin-bottom: 50px;
 }
-
-
