@@ -146,6 +146,7 @@ header {
     box-shadow: 0px 1px 2px 1px rgba(156,153,153,0.46);
     -webkit-box-shadow: 0px 1px 2px 1px rgba(156,153,153,0.46);
     -moz-box-shadow: 0px 1px 2px 1px rgba(156,153,153,0.46);
+    max-height: 82.5px;
 }
 
 .headerButton {
@@ -156,13 +157,32 @@ header {
     padding: 0.5em 1em;
 }
 
-.dropdown:hover {
+.dropDown:hover {
     background-color: #eae7e7;
 }
 
 #logoDropbox:hover {
     transform: scale(1.1);
 }
+
+.dropDownContent {
+    display: none;
+    top: 65px;
+    left: 0;
+    background-color: #eae7e7;
+    width: 100%;
+    padding: 1em;
+}
+
+.dropDown:hover .dropDownContent {
+    display: block;   
+}
+
+.dropItem:hover {
+    background-color: #d5cfcf;
+    cursor: pointer;
+}
+
 
 /* MAIN */
 
@@ -187,6 +207,10 @@ h1 {
     width: 1025px;
     margin: auto;
     padding-top: 150px;
+}
+
+input {
+    scale: 1.5;
 }
 
 .colTitle {
