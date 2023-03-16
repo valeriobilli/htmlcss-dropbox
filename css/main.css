@@ -132,6 +132,10 @@ body {
     color: #999;
 }
 
+button:hover {
+    filter: opacity(0.8)
+}
+
 /* HEADER */
 header {
     position: fixed;
