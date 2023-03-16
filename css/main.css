@@ -132,7 +132,6 @@ body {
     color: #999;
 }
 
-
 /* HEADER */
 header {
     position: fixed;
@@ -157,6 +156,9 @@ header {
     background-color: #eae7e7;
 }
 
+#logoDropbox:hover {
+    transform: scale(1.1);
+}
 
 /* MAIN */
 
