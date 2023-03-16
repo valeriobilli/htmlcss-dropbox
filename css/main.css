@@ -275,6 +275,10 @@ ul {
     height: 50%;
 }
 
+.smallSquare:hover {
+    opacity: 0.8;
+}
+
 #designitBox {
     background-color: #a2d39b;
 }
